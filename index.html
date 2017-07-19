@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html ng-app="list" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>angularShit</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Droid+Serif|Lato|Open+Sans');
+    </style>
+    </head>
+
+<body ng-controller="listController">
+    <div id="container">
+   <input id="itemInput" type="text" ng-model="items.name" placeholder="Things to do">
+    <button id="itemBtn" ng-click="makeList(items)" type="button">Click This</button>
+    
+    <input id="searchInput" type="text" ng-model="search" placeholder="Search">
+    <button id="searchBtn" ng-click="search" type="button">Search</button>
+    
+    <div id="divList">
+    <h3>Note to Self:</h3>
+    <ul>
+   <li ng-repeat="items in list | filter: search">{{ items.name }}</li>
+        </ul>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,103 @@
+body {
+    background-color: #F7F39A;
+    
+}
+
+#container {
+    width: 100%;
+    display: inline-block;
+    margin: 0px auto;
+    background-color: #F7F39A;
+    float: left;
+
+}
+
+#divList {
+    float: left;
+    margin-top: -280px;
+    margin-left: 200px;
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+
+}
+
+li {
+    list-style: none;
+    text-align: left;
+    display: block;
+    width: 100%;
+    line-height: 50px;
+}
+
+li:nth-child(even) {
+    background-color: #A3DE83;
+    
+}
+
+h3 {
+    color: #346473;
+    text-shadow: -2px 2px 1px #314A52;
+    font-family: 'Droid Serif', serif;
+    font-size: 70px;
+
+}
+
+#itemInput {
+    display: inline-block;
+    width: 120px;
+    border: 0px;
+    border-bottom: 1px solid #999;
+    margin-bottom: 20px;
+    height: 30px;
+    font-size: 16px;
+    background-color: #F7F39A;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+#itemBtn {
+    display: block;
+    width: 120px;
+    border: 0px;
+    margin-bottom: 20px;
+    background-color: #38817A;
+    height: 30px;
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-stretch: expanded;
+
+}
+
+#searchInput {
+    display: block;
+    width: 120px;
+    border: 0px;
+    border-bottom: 1px solid #999;
+    margin-bottom: 20px;
+    height: 30px;
+    font-size: 16px;
+    background-color: #F7F39A;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+
+
+    
+}
+
+#searchBtn {
+    display: block;
+    width: 120px;
+    border: 0px;
+    margin-bottom: 20px;
+    background-color: #38817A;
+    height: 30px;
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+
+
+
+    
+}
